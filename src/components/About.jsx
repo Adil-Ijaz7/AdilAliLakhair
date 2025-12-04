@@ -26,15 +26,15 @@ export default function About() {
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          I'm a passionate full-stack developer specializing in **React.js & Node.js**. I thrive on blending technical expertise with sleek UI/UX design to build high-performing, user-friendly applications.
+          I am a **Full-Stack Developer and AI Researcher** dedicated to building the next generation of intelligent software systems. Operating at the intersection of robust web engineering and advanced machine learning, I design solutions that bridge theoretical AI with practical, scalable deployment. My work spans from building responsive web applications to developing sophisticated AI models that solve real-world problems.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          My web development journey started in **2015**, and since then, I've continuously evolved, taking on new challenges and keeping up with the latest technologies. Today, I build **cutting-edge web applications** using **Next.js, TypeScript, NestJS, TailwindCSS, Supabase, and more**.
+          As a Developer and IT Instructor at **Win Academy Dadu**, I master the engineering lifecycle by building full-stack applications using modern technologies like React, Node.js, and Python while teaching core computational concepts in Java, C++, and Python. Simultaneously, I advance my expertise in AI and **Natural Language Processing (NLP)**, building on my experience at **Elevvo Pathways**, where I collaborated on cutting-edge language processing projects and applied machine learning techniques to solve complex challenges.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          Beyond coding, I enjoy sharing insights on **Twitter**, engaging with **Indie Hackers**, and following the journey of **early-stage startups**. Feel free to follow me on **Twitter** or check out my projects on **GitHub**.
+          Currently pursuing a Bachelor's in Computer Science at **Sukkur IBA University**, I am also **Certified in Ethical Hacking** by Cisco. I apply this security-first mindset to both my web architectures and AI models, ensuring innovation never comes at the cost of reliability. My comprehensive skill set includes frameworks like Next.js, TensorFlow, and PyTorch, complemented by expertise in Docker, AWS, and database management. This technical foundation allows me to deliver end-to-end solutions that are not only intelligent and innovative but also secure, scalable, and production-ready.
         </p>
       </motion.div>
     </div>
