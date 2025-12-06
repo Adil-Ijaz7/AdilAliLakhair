@@ -1,0 +1,11 @@
+# robots.txt for Adil Ali Lakhair Portfolio
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://adilalilakhair.vercel.app//sitemap.xml
+
+# Disallow unnecessary directories (if any in future)
+# Disallow: /admin/
+# Disallow: /private/

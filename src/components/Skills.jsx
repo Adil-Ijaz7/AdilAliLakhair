@@ -133,11 +133,11 @@ export default function Skills() {
   ]);
 
   return (
-    <div className="mt-3 lg:mt-16" id="skills">
+    <div className="mt-3 lg:mt-16 dark:bg-gray-900" id="skills">
       {/* Tech Stack Section with Marquee */}
       <div className="px-5 lg:px-28 mb-12 lg:mb-20">
         <motion.h2
-          className="text-2xl lg:text-4xl text-center mb-4"
+          className="text-2xl lg:text-4xl text-center mb-4 text-black dark:text-white"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -147,7 +147,7 @@ export default function Skills() {
         </motion.h2>
         
         <motion.p
-          className="text-[#71717A] text-center text-sm lg:text-base max-w-2xl mx-auto mb-8 lg:mb-12"
+          className="text-[#71717A] dark:text-gray-400 text-center text-sm lg:text-base max-w-2xl mx-auto mb-8 lg:mb-12"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -159,15 +159,15 @@ export default function Skills() {
         {/* Marquee Container */}
         <div className="relative overflow-hidden py-8">
           {/* Gradient Overlays */}
-          <div className="absolute left-0 top-0 bottom-0 w-16 lg:w-32 bg-gradient-to-r from-white to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-16 lg:w-32 bg-gradient-to-l from-white to-transparent z-10"></div>
+          <div className="absolute left-0 top-0 bottom-0 w-16 lg:w-32 bg-gradient-to-r from-white dark:from-gray-900 to-transparent z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-16 lg:w-32 bg-gradient-to-l from-white dark:from-gray-900 to-transparent z-10"></div>
           
           {/* Marquee Animation */}
-          <div className="flex gap-6 lg:gap-8 animate-marquee">
+          <div className="flex gap-6 lg:gap-8 animate-marquee w-max">
             {[...skills, ...skills].map((skill, index) => (
               <div
                 key={index}
-                className="bg-white border-2 border-black rounded-lg p-4 lg:p-6 min-w-[120px] lg:min-w-[140px] flex flex-col items-center justify-center gap-3 hover:bg-black hover:text-white transition-all cursor-pointer flex-shrink-0"
+                className="bg-white dark:bg-gray-800 border-2 border-black dark:border-white rounded-lg p-4 lg:p-6 min-w-[120px] lg:min-w-[140px] flex flex-col items-center justify-center gap-3 hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-all cursor-pointer flex-shrink-0 text-black dark:text-white"
               >
                 <div className="text-4xl lg:text-5xl">{skill.icon}</div>
                 <p className="text-xs lg:text-sm font-semibold text-center">{skill.name}</p>
@@ -178,7 +178,7 @@ export default function Skills() {
       </div>
 
       {/* Experience Section */}
-      <div className="bg-black w-full my-8 py-8 lg:my-16 lg:py-16">
+      <div className="bg-black dark:bg-gray-950 w-full my-8 py-8 lg:my-16 lg:py-16">
         <motion.h2
           className="text-2xl lg:text-4xl text-center text-white"
           initial={{ opacity: 0, y: -20 }}
@@ -199,7 +199,7 @@ export default function Skills() {
             return (
               <motion.div
                 key={exp.id}
-                className="bg-black p-5 border border-[#D4D4D8] rounded-md hover:bg-[#27272A] transition-all"
+                className="bg-black dark:bg-gray-900 p-5 border border-[#D4D4D8] dark:border-gray-700 rounded-md hover:bg-[#27272A] dark:hover:bg-gray-800 transition-all"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{
